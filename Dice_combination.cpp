@@ -5,6 +5,7 @@ using namespace std;
 #define ll long long int
 vector<ll> dp(10000000,-1);
 ll f(int n){
+    
     if(n==0) return 1;
     if(dp[n]!=-1) return dp[n];
     ll sum=0;
